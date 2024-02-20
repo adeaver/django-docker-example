@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it django-docker-web-1 poetry run ./manage.py "$@"
